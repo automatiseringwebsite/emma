@@ -330,3 +330,33 @@ Veel plezier met de website! 🎨✨
 
 ---
 **© 2025 Emma's Creatieve Wereld - Alle rechten voorbehouden**
+
+## Favicon - Toegevoegd op 2026-02-14
+
+**Favicon ontwerpen voor Emma's creatieve website:**
+
+### Ontwerp
+Het favicon toont Emma's drie favoriete hobby's:
+- 🧶 **Knutselen** - Garenbol in roze/goud
+- 🎨 **Tekenen** - Verfpalet met meerdere kleuren  
+- 🧵 **Haken** - Haaknaald met garen
+
+### Bestanden
+- `favicon.svg` - Hoogwaardige SVG versie (aanbevolen)
+- `favicon.ico` - ICO formaat met alle groottes (backwards compatible)
+- `favicon-16x16.png` - PNG 16x16 pixels
+- `favicon-32x32.png` - PNG 32x32 pixels  
+- `favicon-64x64.png` - PNG 64x64 pixels
+
+### Kleurenpalet
+- Hoofdkleur: Roze (#FF69B4 / #FFB6C1)
+- Accenten: Goud (#FFD700), Hot Pink (#FF1493)
+- Verfkleuren: Rood, Geel, Groen, Blauw, Paars
+
+### Browser Ondersteuning
+De favicon code in index.html ondersteunt:
+- Moderne browsers (SVG)
+- Oudere browsers (ICO fallback)
+- Retina displays (64x64 PNG)
+- Mobile devices (32x32 PNG)
+
