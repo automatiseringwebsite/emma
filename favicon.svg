@@ -1,68 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Background - Soft pink/peach gradient -->
+  <!-- Heart shape background with gradient -->
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFB6C1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFC0CB;stop-opacity:1" />
+    <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF1493;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#bgGradient)" stroke="#FF69B4" stroke-width="2"/>
+  <!-- Heart shape -->
+  <path d="M32 56 
+           C12 40 4 28 4 18 
+           C4 8 12 2 18 6 
+           C24 10 28 16 32 16 
+           C36 16 40 10 46 6 
+           C52 2 60 8 60 18 
+           C60 28 52 40 32 56 Z" 
+        fill="url(#heartGradient)" 
+        stroke="#C71585" 
+        stroke-width="2"
+        filter="drop-shadow(2px 2px 2px rgba(0,0,0,0.2))"/>
   
-  <!-- Three main hobbies arranged in a triangle -->
+  <!-- Three hobbies inside the heart -->
   
-  <!-- Knutselen (yarn ball) - top left -->
-  <g transform="translate(16, 18)">
-    <!-- Yarn ball base -->
-    <circle cx="10" cy="10" r="9" fill="#FF69B4" stroke="#FF1493" stroke-width="1.5"/>
+  <!-- Knutselen (yarn ball) - top left of heart -->
+  <g transform="translate(14, 16)">
+    <!-- Yarn ball -->
+    <circle cx="6" cy="6" r="5" fill="#FFD700" stroke="#FF8C00" stroke-width="1"/>
     <!-- Yarn strands -->
-    <path d="M5 5 Q10 8 15 5" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
-    <path d="M4 10 Q10 13 16 10" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
-    <path d="M5 15 Q10 12 15 15" stroke="#FFD700" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M2 4 Q6 6 10 4" stroke="#FF69B4" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M3 8 Q6 10 9 8" stroke="#FF69B4" stroke-width="1" fill="none" opacity="0.8"/>
+    <path d="M4 6 Q6 4 8 6" stroke="#FF69B4" stroke-width="1" fill="none" opacity="0.8"/>
     <!-- Yarn end -->
-    <path d="M16 6 Q22 10 20 16" stroke="#FF69B4" stroke-width="2" fill="none"/>
-    <!-- Sparkles -->
-    <circle cx="20" cy="8" r="1.5" fill="#FFD700" opacity="0.9"/>
-    <circle cx="6" cy="14" r="1.5" fill="#FFD700" opacity="0.9"/>
+    <path d="M11 5 Q14 6 13 9" stroke="#FF69B4" stroke-width="1.5" fill="none"/>
+    <!-- Sparkle -->
+    <circle cx="12" cy="4" r="1" fill="#FFD700" opacity="1"/>
   </g>
   
-  <!-- Tekenen (paint palette) - top right -->
-  <g transform="translate(32, 18)">
-    <!-- Palette shape -->
-    <path d="M8 16 L6 22 A2 2 0 0 0 8 25 L22 25 A2 2 0 0 0 24 22 L22 16 Z" fill="#FFFFFF" stroke="#FF69B4" stroke-width="1.5"/>
-    <ellipse cx="15" cy="18" rx="10" ry="6" fill="#FFFFFF" stroke="#FF69B4" stroke-width="1.5"/>
+  <!-- Tekenen (paint palette) - top right of heart -->
+  <g transform="translate(34, 14)">
+    <!-- Small palette -->
+    <ellipse cx="10" cy="8" rx="7" ry="4" fill="#FFFFFF" stroke="#FF69B4" stroke-width="1.5"/>
     <!-- Paint colors -->
-    <circle cx="10" cy="17" r="3" fill="#FF6347"/>
-    <circle cx="15" cy="15" r="3" fill="#FFD700"/>
-    <circle cx="20" cy="17" r="3" fill="#32CD32"/>
-    <circle cx="12" cy="20" r="2.5" fill="#4169E1"/>
-    <circle cx="18" cy="20" r="2.5" fill="#9370DB"/>
+    <circle cx="6" cy="7" r="2" fill="#FF6347"/>
+    <circle cx="10" cy="6" r="2" fill="#FFD700"/>
+    <circle cx="14" cy="7" r="2" fill="#32CD32"/>
+    <circle cx="7" cy="9" r="1.5" fill="#4169E1"/>
     <!-- Thumb hole -->
-    <circle cx="22" cy="20" r="2" fill="#FFB6C1" stroke="#FF69B4" stroke-width="1"/>
-    <!-- Paint brush -->
-    <path d="M2 8 Q5 5 8 8 L6 10 Z" fill="#8B4513"/>
-    <path d="M6 10 L6 14 Q6 16 4 16" stroke="#FF69B4" stroke-width="1.5" fill="none"/>
+    <circle cx="15" cy="8" r="1.2" fill="#FF69B4" opacity="0.6"/>
   </g>
   
-  <!-- Haken (crochet hook with yarn) - bottom center -->
+  <!-- Haken (crochet hook) - bottom center of heart -->
   <g transform="translate(24, 38)">
-    <!-- Crochet hook handle -->
-    <rect x="12" y="14" width="6" height="12" rx="2" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="1"/>
+    <!-- Hook handle -->
+    <rect x="6" y="6" width="4" height="8" rx="1" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="0.5"/>
     <!-- Hook part -->
-    <path d="M15 14 L15 8 Q15 4 12 4 Q8 4 8 8" stroke="#C0C0C0" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M8 6 L8 3 Q8 1 6 1 Q4 1 4 3" stroke="#C0C0C0" stroke-width="2" fill="none" stroke-linecap="round"/>
     <!-- Yarn on hook -->
-    <path d="M8 8 Q12 6 16 8" stroke="#FF69B4" stroke-width="2.5" fill="none"/>
-    <path d="M16 8 Q20 10 18 14" stroke="#FF69B4" stroke-width="2" fill="none"/>
+    <path d="M4 3 Q6 2 8 3" stroke="#FF69B4" stroke-width="1.5" fill="none"/>
+    <path d="M8 3 Q10 4 9 6" stroke="#FF69B4" stroke-width="1" fill="none"/>
     <!-- Yarn loop -->
-    <path d="M8 8 Q6 12 10 14" stroke="#FF69B4" stroke-width="1.5" fill="none" opacity="0.8"/>
+    <path d="M4 3 Q3 5 5 6" stroke="#FF69B4" stroke-width="0.8" fill="none" opacity="0.7"/>
   </g>
   
-  <!-- Sparkles around -->
-  <circle cx="32" cy="8" r="1.5" fill="#FFD700" opacity="0.9"/>
-  <circle cx="56" cy="32" r="1.5" fill="#FFD700" opacity="0.9"/>
-  <circle cx="32" cy="56" r="1.5" fill="#FFD700" opacity="0.9"/>
-  <circle cx="8" cy="32" r="1.5" fill="#FFD700" opacity="0.9"/>
+  <!-- Sparkles around the heart -->
+  <circle cx="16" cy="20" r="1.2" fill="#FFD700" opacity="0.9"/>
+  <circle cx="48" cy="24" r="1.2" fill="#FFD700" opacity="0.9"/>
+  <circle cx="32" cy="52" r="1.2" fill="#FFD700" opacity="0.9"/>
+  <circle cx="20" cy="44" r="0.8" fill="#FFD700" opacity="0.7"/>
+  <circle cx="44" cy="44" r="0.8" fill="#FFD700" opacity="0.7"/>
   
   <!-- Shine effect -->
-  <ellipse cx="18" cy="16" rx="4" ry="3" fill="white" opacity="0.4"/>
+  <ellipse cx="14" cy="16" rx="3" ry="2" fill="white" opacity="0.4"/>
 </svg>

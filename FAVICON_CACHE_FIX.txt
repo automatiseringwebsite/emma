@@ -1,0 +1,52 @@
+════════════════════════════════════════════════════════════
+  ❤️  FAVICON NIET ZICHTBAAR? CACHE PROBLEEM OPLOSSEN  ❤️
+════════════════════════════════════════════════════════════
+
+Als je het hartje favicon NIET ziet in de browser tab, dan is dit
+waarschijnlijk een browser cache probleem. Favicons worden door
+browsers heel agressief opgeslagen!
+
+🔧 OPLOSSINGEN (probeer deze in volgorde):
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. MAC gebruiker (Safari):
+   • Cmd + Opt + E (Cache legen)
+   • Of: Safari → Instellingen → Privacy → Beheer Website Data
+   • Verwijder alle cache data
+   • Herlaad de pagina (Cmd + R)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. MAC gebruiker (Chrome):
+   • Cmd + Shift + Delete (Cache legen)
+   • Of: chrome://settings/clearBrowserData
+   • Selecteer "Afbeeldingen en bestanden in cache"
+   • Klik op "Gegevens wissen"
+   • Herlaad de pagina (Cmd + Shift + R voor hard refresh)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. ALLE browsers - HARD REFRESH:
+   • Chrome: Cmd + Shift + R (Mac) / Ctrl + F5 (Windows)
+   • Safari: Cmd + Opt + R
+   • Firefox: Cmd + Shift + R (Mac) / Ctrl + F5 (Windows)
+   
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. ANDERE BROWSER PROBEREN:
+   • Als Safari het niet toont, probeer Chrome
+   • Als Chrome het niet toont, probeer Firefox
+   • Elke browser cache anders!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. PRIVÉ/INCognito MODUS:
+   • Open de site in een privé/incognito venster
+   • Dit gebruikt GEEN cache
+   • Als je het daar ZIET, dan werkt het wel (cache probleem!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✨ SNELLE TEST:
+   • Open http://localhost:8000/ (indien je een lokale server draait)
+   • Of sleep de index.html direct in de browser
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💡 TIP: Na cache legen moet je soms de browser volledig herstarten!
+════════════════════════════════════════════════════════════
+

@@ -331,15 +331,16 @@ Veel plezier met de website! 🎨✨
 ---
 **© 2025 Emma's Creatieve Wereld - Alle rechten voorbehouden**
 
-## Favicon - Toegevoegd op 2026-02-14
+## Favicon - Toegevoegd op 2026-02-14 (♥ HARTVORM ♥)
 
-**Favicon ontwerpen voor Emma's creatieve website:**
+**Favicon in hartvorm voor Emma's creatieve website!**
 
 ### Ontwerp
-Het favicon toont Emma's drie favoriete hobby's:
-- 🧶 **Knutselen** - Garenbol in roze/goud
-- 🎨 **Tekenen** - Verfpalet met meerdere kleuren  
-- 🧵 **Haken** - Haaknaald met garen
+Het favicon is in de vorm van een **lief hartje** ❤️ met daarin Emma's drie favoriete hobby's:
+- 🧶 **Knutselen** - Garenbol in goud met roze strepen (links in hartje)
+- 🎨 **Tekenen** - Verfpalet met kleuren (rechts in hartje)  
+- 🧵 **Haken** - Haaknaald met garen (onderin hartje)
+- ✨ **Sparkles** - Gouden glitters rondom het hartje
 
 ### Bestanden
 - `favicon.svg` - Hoogwaardige SVG versie (aanbevolen)
@@ -349,9 +350,14 @@ Het favicon toont Emma's drie favoriete hobby's:
 - `favicon-64x64.png` - PNG 64x64 pixels
 
 ### Kleurenpalet
-- Hoofdkleur: Roze (#FF69B4 / #FFB6C1)
-- Accenten: Goud (#FFD700), Hot Pink (#FF1493)
-- Verfkleuren: Rood, Geel, Groen, Blauw, Paars
+- **Hartje:** Roze gradiënt (#FF69B4 → #FF1493)
+- **Achtergrond:** Gebruikt geen achtergrond (transparant)
+- **Accenten:** Goud (#FFD700), Hot Pink (#FF1493)
+- **Verfkleuren:** Rood (#FF6347), Geel (#FFD700), Groen (#32CD32), Blauw (#4169E1)
+- **Hobby's:** 
+  - Garen: Goud (#FFD700) met roze strepen
+  - Palet: Wit met kleurige verf
+  - Haaknaald: Zilver (#C0C0C0)
 
 ### Browser Ondersteuning
 De favicon code in index.html ondersteunt:
